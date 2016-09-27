@@ -19,6 +19,3 @@
 
 # Ignore Byebug command history file.
 .byebug_history
-
-# Ignore the bane of all git repos.
-.DS_Store
