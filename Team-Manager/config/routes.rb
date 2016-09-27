@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :events
+  resources :organizations
   resources :organization_teams
   resources :people
   resources :teams
