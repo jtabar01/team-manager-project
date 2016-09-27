@@ -26,7 +26,7 @@ rails generate scaffold Event_property_map event_id:references key:string value:
 
 rails generate scaffold Parent_children parent_id:references child_id:references
 
-rails generate scaffold Certification person_id:references certification_name:string expiration_date:date note:body
+rails generate scaffold Certification person_id:references certification_name:string expiration_date:date note:text
 
 
 
