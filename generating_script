@@ -20,4 +20,8 @@ rails generate scaffold Organization organization_id:integer name:string
 
 rails generate scaffold Event event_id:integer event_type:references event_datetime:date team_id:references created_by:integer open_to_public:boolean
 
+rails generate scaffold Event_type event_type_id:integer type_description:string
+
+rails generate scaffold Event_property_map event_id:references key:string value:string
+
 

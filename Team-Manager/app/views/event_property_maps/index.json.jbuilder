@@ -1,0 +1,1 @@
+json.array! @event_property_maps, partial: 'event_property_maps/event_property_map', as: :event_property_map

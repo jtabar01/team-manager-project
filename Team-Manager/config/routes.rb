@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :event_property_maps
+  resources :event_types
   resources :events
   resources :organizations
   resources :organization_teams
