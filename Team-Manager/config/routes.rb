@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  resources :organization_teams
+  resources :people
+  resources :teams
   resources :player_statistics
   resources :coaches
   resources :players
-  resources :people
   resources :team_people
   resources :emails
   resources :phone_numbers

@@ -1,6 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  person_id: 1
   first_name: MyString
   last_name: MyString
   addr_route: MyString
@@ -11,13 +12,14 @@ one:
   pass_hash: MyString
   pass_salt: MyString
   bio: MyText
-  birth_date: 2016-09-25
+  birth_date: 2016-09-26
   gender: MyString
   height_in_inches: 1
   weight_in_pounds: 1
   shoe_size: MyString
 
 two:
+  person_id: 1
   first_name: MyString
   last_name: MyString
   addr_route: MyString
@@ -28,7 +30,7 @@ two:
   pass_hash: MyString
   pass_salt: MyString
   bio: MyText
-  birth_date: 2016-09-25
+  birth_date: 2016-09-26
   gender: MyString
   height_in_inches: 1
   weight_in_pounds: 1
