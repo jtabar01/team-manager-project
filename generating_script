@@ -1,8 +1,8 @@
 rails generate scaffold Person first_name:string last_name:string addr_route:string addr_city:string addr_state:string addr_zip:integer username:string pass_hash:string pass_salt:string bio:text birth_date:date gender:string height_in_inches:integer weight_in_pounds:integer shoe_size:string
 
-rails generate scaffold Phone_Number phone:string person_id:references
+rails generate scaffold Phone_Number phone:string person:references
 
-rails generate scaffold Email email:string person_id:references
+rails generate scaffold Email email:string person:references
 
 rails generate scaffold Team_people person_id:references team_id:references
 
@@ -11,6 +11,7 @@ rails generate scaffold Player player_coach_id:references player_jersey_id:integ
 rails generate scaffold Coach person_id:references coach_type:string coach_year_began:date coach_year_ended:date coach_id:integer
 
 rails generate scaffold Player_statistics player_id:references statistic_type:string statistic_value:string date_recorded:date stat_id:integer
+
 
 rails generate scaffold Team team_id:integer organization_id:integer team_name:string competitive:boolean age_group:string
 

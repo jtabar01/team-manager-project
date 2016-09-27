@@ -2,8 +2,8 @@
 
 one:
   phone: MyString
-  person_id: one
+  person: one
 
 two:
   phone: MyString
-  person_id: two
+  person: two

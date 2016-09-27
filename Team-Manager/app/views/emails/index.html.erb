@@ -15,7 +15,7 @@
     <% @emails.each do |email| %>
       <tr>
         <td><%= email.email %></td>
-        <td><%= email.person_id %></td>
+        <td><%= email.person %></td>
         <td><%= link_to 'Show', email %></td>
         <td><%= link_to 'Edit', edit_email_path(email) %></td>
         <td><%= link_to 'Destroy', email, method: :delete, data: { confirm: 'Are you sure?' } %></td>

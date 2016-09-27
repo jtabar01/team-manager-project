@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :phone_numbers
+  resources :emails
   resources :people
   resources :certifications
   resources :parent_children
@@ -12,7 +14,5 @@ Rails.application.routes.draw do
   resources :coaches
   resources :players
   resources :team_people
-  resources :emails
-  resources :phone_numbers
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

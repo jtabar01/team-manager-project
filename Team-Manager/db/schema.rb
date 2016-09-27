@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160927032106) do
+ActiveRecord::Schema.define(version: 20160927035528) do
 
   create_table "certifications", force: :cascade do |t|
     t.integer  "person_id_id"
@@ -35,10 +35,10 @@ ActiveRecord::Schema.define(version: 20160927032106) do
 
   create_table "emails", force: :cascade do |t|
     t.string   "email"
-    t.integer  "person_id_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-    t.index ["person_id_id"], name: "index_emails_on_person_id_id"
+    t.integer  "person_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["person_id"], name: "index_emails_on_person_id"
   end
 
   create_table "event_property_maps", force: :cascade do |t|
@@ -117,10 +117,10 @@ ActiveRecord::Schema.define(version: 20160927032106) do
 
   create_table "phone_numbers", force: :cascade do |t|
     t.string   "phone"
-    t.integer  "person_id_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-    t.index ["person_id_id"], name: "index_phone_numbers_on_person_id_id"
+    t.integer  "person_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["person_id"], name: "index_phone_numbers_on_person_id"
   end
 
   create_table "player_statistics", force: :cascade do |t|

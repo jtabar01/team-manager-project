@@ -1,3 +1,3 @@
 class Email < ApplicationRecord
-  belongs_to :People
+  belongs_to :person
 end
