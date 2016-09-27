@@ -1,0 +1,1 @@
+json.partial! "event_property_maps/event_property_map", event_property_map: @event_property_map

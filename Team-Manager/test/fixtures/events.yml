@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_id: 1
+  event_type: one
+  event_datetime: 2016-09-26
+  team_id: one
+  created_by: 1
+  open_to_public: false
+
+two:
+  event_id: 1
+  event_type: two
+  event_datetime: 2016-09-26
+  team_id: two
+  created_by: 1
+  open_to_public: false

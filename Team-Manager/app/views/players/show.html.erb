@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Player coach:</strong>
+  <%= @player.player_coach_id %>
+</p>
+
+<p>
+  <strong>Player jersey:</strong>
+  <%= @player.player_jersey_id %>
+</p>
+
+<p>
+  <strong>Team join date:</strong>
+  <%= @player.team_join_date %>
+</p>
+
+<p>
+  <strong>Team left date:</strong>
+  <%= @player.team_left_date %>
+</p>
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>
