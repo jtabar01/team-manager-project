@@ -7,3 +7,7 @@ rails generate scaffold Email email:string person_id:references
 rails generate scaffold Team_people person_id:references team_id:references
 
 rails generate scaffold Player player_coach_id:references player_jersey_id:integer team_join_date:date team_left_date:date
+
+rails generate scaffold Coach person_id:references coach_type:string coach_year_began:date coach_year_ended:date coach_id:integer
+
+rails generate scaffold Player_statistics player_id:references statistic_type:string statistic_value:string date_recorded:date stat_id:integer

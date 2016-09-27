@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :player_statistics
+  resources :coaches
   resources :players
   resources :people
   resources :team_people

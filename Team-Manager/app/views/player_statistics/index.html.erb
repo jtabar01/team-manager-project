@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Player Statistics</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Statistic type</th>
+      <th>Statistic value</th>
+      <th>Date recorded</th>
+      <th>Stat</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @player_statistics.each do |player_statistic| %>
+      <tr>
+        <td><%= player_statistic.player_id %></td>
+        <td><%= player_statistic.statistic_type %></td>
+        <td><%= player_statistic.statistic_value %></td>
+        <td><%= player_statistic.date_recorded %></td>
+        <td><%= player_statistic.stat_id %></td>
+        <td><%= link_to 'Show', player_statistic %></td>
+        <td><%= link_to 'Edit', edit_player_statistic_path(player_statistic) %></td>
+        <td><%= link_to 'Destroy', player_statistic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Player Statistic', new_player_statistic_path %>
