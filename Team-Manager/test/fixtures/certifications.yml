@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  person_id: one
+  certification_name: MyString
+  expiration_date: 2016-09-26
+  note: 
+
+two:
+  person_id: two
+  certification_name: MyString
+  expiration_date: 2016-09-26
+  note: 

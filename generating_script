@@ -24,4 +24,9 @@ rails generate scaffold Event_type event_type_id:integer type_description:string
 
 rails generate scaffold Event_property_map event_id:references key:string value:string
 
+rails generate scaffold Parent_children parent_id:references child_id:references
+
+rails generate scaffold Certification person_id:references certification_name:string expiration_date:date note:body
+
+
 

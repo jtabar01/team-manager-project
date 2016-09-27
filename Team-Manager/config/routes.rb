@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :certifications
+  resources :parent_children
   resources :event_property_maps
   resources :event_types
   resources :events
