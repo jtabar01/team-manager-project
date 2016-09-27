@@ -1,2 +1,0 @@
-module OrganizationTeamsHelper
-end
