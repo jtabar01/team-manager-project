@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :people
   resources :certifications
   resources :parent_children
   resources :event_property_maps
@@ -6,7 +7,6 @@ Rails.application.routes.draw do
   resources :events
   resources :organizations
   resources :organization_teams
-  resources :people
   resources :teams
   resources :player_statistics
   resources :coaches

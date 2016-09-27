@@ -1,4 +1,4 @@
-rails generate scaffold Person person_id:integer first_name:string last_name:string addr_route:string addr_city:string addr_state:string addr_zip:integer username:string pass_hash:string pass_salt:string bio:text birth_date:date gender:string height_in_inches:integer weight_in_pounds:integer shoe_size:string
+rails generate scaffold Person first_name:string last_name:string addr_route:string addr_city:string addr_state:string addr_zip:integer username:string pass_hash:string pass_salt:string bio:text birth_date:date gender:string height_in_inches:integer weight_in_pounds:integer shoe_size:string
 
 rails generate scaffold Phone_Number phone:string person_id:references
 

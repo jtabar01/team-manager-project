@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160927030105) do
+ActiveRecord::Schema.define(version: 20160927032106) do
 
   create_table "certifications", force: :cascade do |t|
     t.integer  "person_id_id"
@@ -96,7 +96,6 @@ ActiveRecord::Schema.define(version: 20160927030105) do
   end
 
   create_table "people", force: :cascade do |t|
-    t.integer  "person_id"
     t.string   "first_name"
     t.string   "last_name"
     t.string   "addr_route"
