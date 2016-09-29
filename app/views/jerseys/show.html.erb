@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @jersey.person %>
+</p>
+
+<p>
+  <strong>Team:</strong>
+  <%= @jersey.team %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @jersey.number %>
+</p>
+
+<%= link_to 'Edit', edit_jersey_path(@jersey) %> |
+<%= link_to 'Back', jerseys_path %>

@@ -1,0 +1,1 @@
+json.partial! "person_email_addresses/person_email_address", person_email_address: @person_email_address

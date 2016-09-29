@@ -1,0 +1,1 @@
+json.array! @person_postal_addresses, partial: 'person_postal_addresses/person_postal_address', as: :person_postal_address

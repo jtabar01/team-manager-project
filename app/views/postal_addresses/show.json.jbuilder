@@ -1,0 +1,1 @@
+json.partial! "postal_addresses/postal_address", postal_address: @postal_address
