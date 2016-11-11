@@ -1,0 +1,91 @@
+body{
+  background-color: #000;
+  color: #FE9A2E;
+}
+
+.wrapper{
+  margin-top: 200px;
+}
+
+.topbar{
+  top: 0;
+  z-index: 9;
+  background-color: #FE9A2E;
+  opacity: 80%;
+}
+
+.topbar a{
+  color: #000;
+  text-decoration: none !important;
+}
+
+.topbar a:hover{
+  color: #fff;
+  background-color:#FE9A2E;
+}
+
+.mlink{
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.mlink li{
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h2, h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+a{
+  color: #F6E3CE;
+}
+
+.center{
+  text-align: center;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.italized{
+  font-style: italic;
+}
+
+.textlight{
+  color: #F7BE81;
+}
+.ptitle{
+    width: 200px;
+}
+.pbody{
+    width: 400px;
+}
+.table{
+  margin: auto;
+}
+
+input[type="text"], textarea {
+  background-color : #A4A4A4;
+}
+
+input[type=submit] {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  width: auto;
+  height: 25px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: auto;
+  background: #FE9A2E;
+  text-decoration: none;
+}
+
+input[type=submit]:hover {
+  background: #F7BE81;
+  text-decoration: none;
+}

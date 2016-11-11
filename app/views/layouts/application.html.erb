@@ -18,6 +18,13 @@
           <%= link_to "Sign in", new_user_session_path %>
       <% end %>
     </div>
+    <div class="topbar center">
+      <ul class="mlink">
+        <li><%= link_to 'TEAMS', teams_path  %></li>
+        <li><%= link_to 'ORGANIZATIONS', organizations_path  %></li>
+        <li><%= link_to 'PEOPLE', people_path  %></li>
+      </ul>
+    </div>
     <%= yield %>
   </body>
 </html>

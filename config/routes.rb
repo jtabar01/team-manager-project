@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users, :path => '', :path_names => {:sign_up => 'register', :sign_in => 'login', :sign_out => 'logout'}
+  root 'teams#index'
   resources :jerseys
   resources :organization_teams
   resources :organizations
